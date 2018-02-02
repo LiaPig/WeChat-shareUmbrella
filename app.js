@@ -1,6 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
+    const that = this;
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,8 +33,20 @@ App({
         }
       }
     })
+    // 获取用户当前位置
+    wx.getLocation({
+      type: 'gcj02', //返回可以用于wx.openLocation的经纬度
+      success: function (res) {
+        const latitude = res.latitude
+        const longitude = res.longitude
+        that.globalData.latitude = latitude;
+        that.globalData.longitude = longitude;       
+      }
+    })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    latitude: null,
+    longitude: null
   }
 })

@@ -4,10 +4,12 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    latitude: null,
+    longitude: null,
+    // motto: 'Hello World',
+    // userInfo: {},
+    // hasUserInfo: false,
+    // canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   bindViewTap: function() {
@@ -38,6 +40,27 @@ Page({
           this.setData({
             userInfo: res.userInfo,
             hasUserInfo: true
+          })
+        }
+      })
+    }
+    // 获取到当前用户的位置
+    if (app.globalData.latitude && app.globalData.longitude) {
+      this.setData({
+        latitude: app.globalData.latitude,
+        longitude: app.globalData.longitude
+      })
+    }
+    else {
+      // 重新获取用户当前位置
+      wx.getLocation({
+        type: 'gcj02', //返回可以用于wx.openLocation的经纬度
+        success: function (res) {
+          const latitude = res.latitude
+          const longitude = res.longitude
+          this.setData({
+            latitude: latitude,
+            longitude: longitude
           })
         }
       })
