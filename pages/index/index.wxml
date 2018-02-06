@@ -5,6 +5,7 @@
     show-location 
     scale='19'
     controls='{{controls}}'
+    bindcontroltap="controltap"
     longitude="{{longitude}}" 
     latitude="{{latitude}}"></map>
 

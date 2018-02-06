@@ -17,7 +17,8 @@ Page({
                 height: 80
             },
             clickable: true
-        }]
+        }],
+        
         // motto: 'Hello World',
         // userInfo: {},
         // hasUserInfo: false,
@@ -29,12 +30,19 @@ Page({
     //         url: '../logs/logs'
     //     })
     // },
+    //
+    controltap: function(e) {
+      switch (e.controlId) {
+        case 1: console.log("点击了立即用车");break;
+        case 2: console.log("点击了刷新");break;
+        case 3: console.log("点击了我的钱包");break;
+      }
+    },
     // 获取屏幕信息函数
     getSystemInfoData: function () {
         const that = this;
         wx.getSystemInfo({
             success: function (res) {
-                console.log(12312)
                 that.setData({
                     controls: [
                       {
@@ -81,10 +89,10 @@ Page({
         // 获取屏幕信息
         that.getSystemInfoData();
         // 获取到当前用户的位置
-        if (app.globalData.latitude && app.globalData.longitude) {
+        if (app.latitude && app.longitude) {
             that.setData({
-                latitude: app.globalData.latitude,
-                longitude: app.globalData.longitude
+                latitude: app.latitude,
+                longitude: app.longitude
             })
         }
         else {
@@ -92,9 +100,8 @@ Page({
             wx.getLocation({
                 type: 'gcj02', //返回可以用于wx.openLocation的经纬度
                 success: function (res) {
-                    console.log(2);
-                    const latitude = res.latitude
-                    const longitude = res.longitude
+                    const latitude = res.latitude;
+                    const longitude = res.longitude;
                     that.setData({
                         latitude: latitude,
                         longitude: longitude

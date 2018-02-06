@@ -37,16 +37,15 @@ App({
     wx.getLocation({
       type: 'gcj02', //返回可以用于wx.openLocation的经纬度
       success: function (res) {
-        const latitude = res.latitude;
-        const longitude = res.longitude;
-        that.globalData.latitude = latitude;
-        that.globalData.longitude = longitude;       
+        that.latitude = res.latitude;
+        that.longitude = res.longitude;
       }
     })
   },
   globalData: {
     userInfo: null,
-    latitude: null,
-    longitude: null
-  }
+  },
+  // 全局定义的用户当前的经纬度
+  latitude: null,
+  longitude: null,
 })
