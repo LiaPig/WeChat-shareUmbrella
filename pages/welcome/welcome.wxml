@@ -8,7 +8,7 @@
     <text class='smallText'>规范用伞，文明你我</text>
   </view>
   <view class='buttonGroup'>
-    <button class='scan' hover-class='scan_hover'>扫码用伞</button>
-    <button class='input' hover-class='input_hover'>手动输入雨伞号</button>
+    <button bindtap='' class='scan' hover-class='scan_hover'>扫码用伞</button>
+    <button bindtap='goToInputLock' class='input' hover-class='input_hover'>手动输入雨伞号</button>
   </view>
 </view>

@@ -1,18 +1,21 @@
-// pages/welcome/welcome.js
+// pages/inputLock/inputLock.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    
   },
 
-  // 跳转去手动输入解锁界面
-  goToInputLock: function() {
-    wx.navigateTo({
-      url: '../inputLock/inputLock'
-    })
+  //
+  test: function(e) {
+    if (e.detail.value === '') {
+      this.data.disabled = false;
+    }
+    else {
+      this.data.disabled = true;
+    }
   },
 
   /**

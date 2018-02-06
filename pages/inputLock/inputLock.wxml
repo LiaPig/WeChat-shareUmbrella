@@ -1,0 +1,9 @@
+<!--pages/inputLock/inputLock.wxml-->
+<view class='introduce'>
+  <text class='bigText'>获取解锁码</text>
+  <text class='smallText'>计费说明：1元/天</text>
+</view>
+<view class="section">
+  <input type="digit" maxlength="20" placeholder="请输入雨伞号"/>
+</view>
+<button bindinput="test" class='button' hover-class='button_hover'>立即用伞</button>
