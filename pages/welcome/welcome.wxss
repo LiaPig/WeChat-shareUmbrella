@@ -1,0 +1,63 @@
+/* pages/welcome/welcome.wxss */
+.container {
+  position: fixed; 
+  width: 100%;
+  height: 100%;
+}
+.pic {
+  display: inline-block; 
+  width: 100%;
+  height: 30%;
+  background-color: pink
+}
+.pict {
+  width: 100%;
+  height: 100%;
+}
+.introduce {
+  position: absolute;
+  top: 30%;
+  padding-top: 90rpx;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.bigText {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  font-size: 52rpx;
+}
+.smallText {
+  color: #909399;
+}
+.buttonGroup {
+  display: inline-block;
+  width: 100%;
+  height: 40%;
+  margin-top: 0;
+}
+.scan {
+  width: 80%;
+  background-color: #707880;
+  color: #ffffff;
+  border-radius: 50rpx;
+  border: 2rpx solid #707880;
+}
+.scan_hover {
+  background-color: #ffffff;
+  color: #707880;
+  border: 2rpx solid #707880;
+}
+.input {
+  width: 80%;
+  margin-top: 30rpx;
+  background-color: #ffffff;
+   border: 2rpx solid #707880;   
+   /* color: #707880;  */
+  border-radius: 50rpx;
+}
+.input_hover {
+  background-color: #707880;
+  color: #ffffff;
+}

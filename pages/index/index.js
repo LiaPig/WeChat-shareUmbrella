@@ -33,7 +33,7 @@ Page({
     //
     controltap: function(e) {
       switch (e.controlId) {
-        case 1: console.log("点击了立即用车");break;
+        case 1: this.toWelcomePage();break;
         case 2: console.log("点击了刷新");break;
         case 3: console.log("点击了我的钱包");break;
       }
@@ -82,6 +82,12 @@ Page({
                 })
             }
         })
+    },
+    // 跳转去欢迎使用页面
+    toWelcomePage() {
+      wx.navigateTo({
+        url: '../welcome/welcome'
+      })
     },
 
     onLoad: function () {
