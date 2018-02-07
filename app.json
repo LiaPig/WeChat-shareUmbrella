@@ -1,10 +1,11 @@
 {
   "pages": [
-    
+    "pages/wallet/wallet",
     "pages/index/index",
     "pages/welcome/welcome",
     "pages/inputLock/inputLock",
     "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

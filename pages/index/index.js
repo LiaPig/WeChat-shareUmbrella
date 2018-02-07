@@ -24,18 +24,12 @@ Page({
         // hasUserInfo: false,
         // canIUse: wx.canIUse('button.open-type.getUserInfo')
     },
-    //事件处理函数
-    // bindViewTap: function () {
-    //     wx.navigateTo({
-    //         url: '../logs/logs'
-    //     })
-    // },
-    //
+    // 点击地图上的控件触发的事件
     controltap: function(e) {
       switch (e.controlId) {
         case 1: this.toWelcomePage();break;
         case 2: console.log("点击了刷新");break;
-        case 3: console.log("点击了我的钱包");break;
+        case 3: this.toWalletPage();break;
       }
     },
     // 获取屏幕信息函数
@@ -87,6 +81,12 @@ Page({
     toWelcomePage() {
       wx.navigateTo({
         url: '../welcome/welcome'
+      })
+    },
+    // 跳转去我的钱包页面
+    toWalletPage() {
+      wx.navigateTo({
+        url: '../wallet/wallet'
       })
     },
 
