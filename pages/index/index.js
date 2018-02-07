@@ -47,7 +47,7 @@ Page({
                     controls: [
                       {
                         id: 1,
-                        iconPath: '/utils/pictures/1.jpg',
+                        iconPath: '/utils/icons/use.png',
                         position: {
                             left: (res.windowWidth - 80) / 2,
                             top: res.windowHeight - 100,
@@ -58,7 +58,7 @@ Page({
                       },
                       {
                         id: 2,
-                        iconPath: '/utils/pictures/1.jpg',
+                        iconPath: '/utils/icons/refresh.png',
                         position: {
                           left: res.windowWidth/4 - 20,
                           top: res.windowHeight - 100 + 20,
@@ -69,7 +69,7 @@ Page({
                       },
                       {
                         id: 3,
-                        iconPath: '/utils/pictures/1.jpg',
+                        iconPath: '/utils/icons/wallet.png',
                         position: {
                           left: res.windowWidth / 2 + res.windowWidth / 4 - 20,
                           top: res.windowHeight - 100 + 20,
