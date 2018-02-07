@@ -28,7 +28,7 @@ Page({
     controltap: function(e) {
       switch (e.controlId) {
         case 1: this.toWelcomePage();break;
-        case 2: console.log("点击了刷新");break;
+        case 2: this.refreshLocation();break;
         case 3: this.toWalletPage();break;
       }
     },
@@ -77,6 +77,25 @@ Page({
             }
         })
     },
+    // 重新刷新获取位置
+    refreshLocation() {
+      const that = this;
+      wx.showLoading({
+        title: '',
+      });
+      wx.getLocation({
+        type: 'gcj02', //返回可以用于wx.openLocation的经纬度
+        success: function (res) {
+          const latitude = res.latitude;
+          const longitude = res.longitude;
+          that.setData({
+            latitude: latitude,
+            longitude: longitude
+          });
+          wx.hideLoading();
+        }
+      })
+    },
     // 跳转去欢迎使用页面
     toWelcomePage() {
       wx.navigateTo({
@@ -102,18 +121,7 @@ Page({
             })
         }
         else {
-            // 重新获取用户当前位置
-            wx.getLocation({
-                type: 'gcj02', //返回可以用于wx.openLocation的经纬度
-                success: function (res) {
-                    const latitude = res.latitude;
-                    const longitude = res.longitude;
-                    that.setData({
-                        latitude: latitude,
-                        longitude: longitude
-                    })
-                }
-            })
+          that.refreshLocation();
         }
         if (app.globalData.userInfo) {
             this.setData({
