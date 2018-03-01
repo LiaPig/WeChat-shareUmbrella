@@ -10,7 +10,19 @@ App({
     // 登录
     wx.login({
       success: res => {
+        console.log(res)
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // if (res.code) {
+        //   //发起网络请求
+        //   wx.request({
+        //     url:'https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-login.html',
+        //     data: {
+        //       appId: "wxd5fbb5156af5f5d1",
+
+        //       js_code: res.code
+        //     }
+        //   })
+        // }
       }
     })
     // 获取用户信息

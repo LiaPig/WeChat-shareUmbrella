@@ -2,7 +2,7 @@
 <view class="block_container">
  <view class='block1'>
   <text class='block1_title'>余额</text>
-  <text class='block1_text_special'>{{surplus_str}}</text>
+  <text class='block1_text_special'>{{balance_str}}</text>
   <text class='block1_text_normal'> 元</text>
  </view>
  <view class='block2'>

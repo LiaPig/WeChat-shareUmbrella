@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    surplus: 1.5,
-    surplus_str: "1.50",
+    balance: 1.5,
+    balance_str: "1.50",
     deposit: 200,
     deposit_str: "200.00",
   },

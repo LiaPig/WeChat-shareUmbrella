@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc870007-5f82-46ac-9860-cfd244b45d96" name="Default" comment="" />
+    <list default="true" id="dc870007-5f82-46ac-9860-cfd244b45d96" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/pages/wallet/wallet.js" afterPath="$PROJECT_DIR$/pages/wallet/wallet.js" />
+      <change beforePath="$PROJECT_DIR$/pages/wallet/wallet.wxml" afterPath="$PROJECT_DIR$/pages/wallet/wallet.wxml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,10 +22,10 @@
         <entry file="file://$PROJECT_DIR$/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1470">
-              <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+              <caret line="143" column="30" lean-forward="false" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1517565780000" expanded="true" signature="939:2287" ph="{&quot;id&quot;: 1...}" />
+                <marker date="1517991772000" expanded="true" signature="59:404" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,8 +72,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
+    <option name="x" value="-36" />
+    <option name="y" value="204" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
   </component>
@@ -144,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517563254079</updated>
-      <workItem from="1517563255623" duration="946000" />
+      <workItem from="1517563255623" duration="1508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="946000" />
+    <option name="totallyTimeSpent" value="1508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
@@ -196,10 +200,10 @@
     <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
-          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+          <caret line="143" column="30" lean-forward="false" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1517565780000" expanded="true" signature="939:2287" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1517991772000" expanded="true" signature="59:404" ph="{...}" />
           </folding>
         </state>
       </provider>
