@@ -33,26 +33,45 @@
 
 ### 页面展示
 
-![1.授权登录](https://upload-images.jianshu.io/upload_images/7016617-1a2e03c94327bc33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+1.授权登录
 
+![](https://upload-images.jianshu.io/upload_images/7016617-1a2e03c94327bc33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![2.初次进来，先提醒交押金，已经交过直接到界面3](https://upload-images.jianshu.io/upload_images/7016617-5d365a14e668b7b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+2.初次进来，先提醒交押金，已经交过直接到界面3
 
-![3.定位到当前位置显示在地图上，还有刷新定位按钮、立即用伞按钮、我的钱包按钮](https://upload-images.jianshu.io/upload_images/7016617-b4854c55e0bca521.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-5d365a14e668b7b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![4.点击了钱包按钮，进入到我的钱包页面，可查看余额和押金情况](https://upload-images.jianshu.io/upload_images/7016617-9b34dee075b1ae22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+3.定位到当前位置显示在地图上，还有刷新定位按钮、立即用伞按钮、我的钱包按钮
 
-![5.点击了充值按钮后，有四个充值金额可选](https://upload-images.jianshu.io/upload_images/7016617-692f372f804694e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-b4854c55e0bca521.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![6.如果界面3点击了立即用伞按钮，则进来解锁用伞页面，有两个方式，扫码或者手动输入](https://upload-images.jianshu.io/upload_images/7016617-6fd5b05c69ddeacb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+4.点击了钱包按钮，进入到我的钱包页面，可查看余额和押金情况
 
-![7.扫码用伞](https://upload-images.jianshu.io/upload_images/7016617-a19c918ec54b4b9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-9b34dee075b1ae22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![8.手动输入雨伞号](https://upload-images.jianshu.io/upload_images/7016617-bbfb94ea98648854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+5.点击了充值按钮后，有四个充值金额可选
 
-![9.借伞后的页面](https://upload-images.jianshu.io/upload_images/7016617-c780e40b6e1639ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-692f372f804694e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![10.结束用伞后](https://upload-images.jianshu.io/upload_images/7016617-2de9d653b6ba4962.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+6.如果界面3点击了立即用伞按钮，则进来解锁用伞页面，有两个方式，扫码或者手动输入
+
+![](https://upload-images.jianshu.io/upload_images/7016617-6fd5b05c69ddeacb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+7.扫码用伞
+
+![](https://upload-images.jianshu.io/upload_images/7016617-a19c918ec54b4b9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+8.手动输入雨伞号
+
+![](https://upload-images.jianshu.io/upload_images/7016617-bbfb94ea98648854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+[9.借伞后的页面
+
+!](https://upload-images.jianshu.io/upload_images/7016617-c780e40b6e1639ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+10.结束用伞后
+
+![](https://upload-images.jianshu.io/upload_images/7016617-2de9d653b6ba4962.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 交互api
 > 本小程序的后台接口，由[Hertz大佬](http://leewaiho.com)提供。
