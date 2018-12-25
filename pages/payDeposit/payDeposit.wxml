@@ -1,0 +1,11 @@
+<!--pages/payDeposit/payDeposit.wxml-->
+<view class='pageView'>
+  <view class='container'>
+    <text class='title'>100元押金</text>
+    <image src='../../utils/icons/xuanzhong.png' class='logo'></image>
+    <text class='tip'>交纳押金之后即可租用雨伞，押金随时可退</text>
+  </view>
+  <view class='buttonView'>
+    <button bindtap='handlePay' class='pay' hover-class='pay_hover'>确定支付</button>
+  </view>
+</view>

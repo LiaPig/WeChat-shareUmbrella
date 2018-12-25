@@ -1,0 +1,13 @@
+<!--pages/pay/pay.wxml-->
+<view class='pay'>
+  <view class='container1'>
+    <text>感谢您的使用，愿您心情愉快</text>
+  </view>
+  <view class='container2'>
+    <text class='title'>本次需要支付 {{cost_str}} 元</text>
+    <text class='tips'>原价 {{cost_str}} 元 | 无可用优惠券</text>
+    <view class='button_group'>
+       <button bindtap='handlePay' class='pay' hover-class='pay_hover'>立即支付</button> 
+    </view>
+  </view>
+</view>

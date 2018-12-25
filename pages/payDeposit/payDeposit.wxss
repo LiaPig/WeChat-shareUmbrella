@@ -1,0 +1,50 @@
+/* pages/payDeposit/payDeposit.wxss */
+.pageView {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #F2F2F2;
+}
+.container {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  height: 30%;
+  padding: 10% 50rpx 10% 50rpx;
+  background-color: #ffffff;
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  font-size: 60rpx;
+}
+.logo {
+  position: absolute;
+  right: 10%;  
+  width: 60rpx;
+  height: 60rpx;
+}
+.tip {
+  color: #707880;
+}
+
+.buttonView {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+}
+.pay {
+  width: 80%;
+  background-color: #707880;
+  color: #ffffff;
+  border-radius: 50rpx;
+  border: 2rpx solid #707880;
+}
+.pay_hover {
+  background-color: #ffffff;
+  color: #707880;
+  border: 2rpx solid #707880;
+}

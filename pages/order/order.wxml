@@ -1,0 +1,18 @@
+<!--pages/order/order.wxml-->
+<view>
+  <view class="umbrellaNum">
+    <text class="title">当前雨伞编号: </text>
+    <text>{{umbrellaId}}</text>
+  </view>
+  <view class='startTime'>
+    <text class='title'>开始租用时间:</text>
+    <text class='content'>{{startTime}}</text>
+    <text class='title2'>归还点编号:</text> 
+    <view class='section'>
+      <input bindinput="bindKeyInput" type="digit" maxlength="20" placeholder="请输入归还点编号"/>
+    </view>   
+  </view>
+  <view class='buttonView'>
+    <button bindtap='handleEnd' class='end' hover-class='end_hover'>结束用伞</button>
+  </view>
+</view>

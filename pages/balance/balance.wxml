@@ -1,0 +1,20 @@
+<!--pages/balance/balance.wxml-->
+<view>
+  <view class='balanceView'>
+    <view class='title'>{{balance}}元</view>
+    <view class='text'>其中充值余额{{balance}}元</view>
+  </view>
+  <view class='payView'>
+    <view class='title'>充值金额</view>
+    <view class='content'>
+      <block wx:for="{{balanceOption}}" wx:key="">
+        <view data-value='{{item.value}}' bindtap='changeValue' class="{{currentValue==item.value?'active':'normal'}}">
+          {{item.name}}
+        </view>  
+      </block>
+    </view>
+    <view class='buttonView'>
+      <button bindtap='handlePay' class='pay' hover-class='pay_hover'>立即充值</button>
+    </view>
+  </view>
+</view>
