@@ -65,9 +65,9 @@
 
 ![](https://upload-images.jianshu.io/upload_images/7016617-bbfb94ea98648854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-[9.借伞后的页面
+9.借伞后的页面
 
-!](https://upload-images.jianshu.io/upload_images/7016617-c780e40b6e1639ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-c780e40b6e1639ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 10.结束用伞后
 
